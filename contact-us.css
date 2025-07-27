@@ -1,0 +1,50 @@
+*,
+::before,
+::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #000520;
+  font-weight: 400;
+  font-size: 1.3125rem;
+  line-height: 1.6;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+nav a{
+  color: antiquewhite;
+  font-size: xx-large;
+}
+.contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+  margin-top: 10px;
+  background: #fff;
+}
+.fa-brands{
+  font-size: xx-large;
+}
+button{
+  margin-right: auto;
+  width: 120px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  margin-top: -18px;
+  color: #787c92;
+}
+.back-to-product{
+  text-align: center;
+  background-color: #fff;
+}
+.back-to-product button:hover{
+  background-color: #dedfe4;
+  cursor: pointer;
+}
