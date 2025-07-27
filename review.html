@@ -5,9 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <link rel="stylesheet" href="review.css">
+
   <title>Reviews</title>
+
 </head>
 <body>
   <div title="HOME">
@@ -29,7 +33,8 @@
       <h4>&star;&star;&star;&star;&star;</h4>
     </div>
   </div>
-    <div class="dee-p">
+    <div data-aos="fade-right"
+    data-aos-duration="1500">
       <p>
         Blissy's Interiors the best name when it comes to Interior Designs. I could not recognized my home after they finished with the Interiors, and they delivered in less then initial schedule. Quality was delivered as promised. 
     </p>
@@ -39,13 +44,14 @@
   <!-- the 2nd review statement -->
   <div class="review2-container">
     <div class="review-2">
-      <img src="blissy-images/Profile image2.jpg" alt="profile image">
+      <img class="review-pic" src="blissy-images/Review1.jpg" alt="profile image">
       <div class="sha-sha">
         <h4>Sha Sha</h4>
         <h4>&star;&star;&star;&star;</h4>
       </div>
     </div>
-    <div>
+    <div data-aos="flip-up"
+    data-aos-duration="2500">
       <p>I recently hired Blissy's cleaning service for a deep clean of my home, and I couldn’t be more impressed! From start to finish, their team was professional, punctual, and incredibly thorough. They arrived on time with all the necessary supplies and got to work right away, tackling every corner of my house with care and attention to detail.</p>
     </div>
   </div>
@@ -53,20 +59,23 @@
   <!-- the 3rd review statement-->
    <div class="review3-container">
     <div class="review-3">
-      <img src="blissy-images/Profile image3.jpg" alt="profile image">
+      <img class="review-pic" src="blissy-images/Review2.jpg" alt="profile image">
       <div class="becky">
         <h4>Becky</h4>
         <h4>&star;&star;&star;&star;&star;</h4>
       </div>
     </div>
     
-      <div>
+      <div data-aos="flip-right"
+      data-aos-duration="2500">
       <p>Trusted name, nothing like what i ordered versus what i got on a negative form, but it was in a positive form, i keep getting questions from every visitors i have cause of the transformation i got from her interiors</p>
     </div>
    </div>
-    
-    
-    </div>
-    </div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>   AOS.init(); </script>
 </body>
 </html>

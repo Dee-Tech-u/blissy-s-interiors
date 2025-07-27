@@ -29,15 +29,19 @@ img{
   height: 50px;
   border-radius: 25px;
 }
+.review-pic{
+  height: 30px;
+  width: 30px;
+}
 .reviews{
   text-align: center;
   background: #1d1f27;
-  padding: 15px;
+  padding: 30px;
 }
 
 .review1-container{
   background: #20222b;
-   padding: 15px;
+   padding: 30px;
 }
 .review-1{
   display: flex;
@@ -46,7 +50,7 @@ img{
 
 .review2-container{
    background: #252730;
-   padding: 15px;
+   padding: 30px;
 }
 .review-2{
   display: flex;
@@ -55,7 +59,7 @@ img{
 
 .review3-container{
   background: #24262e;
-  padding: 15px;
+  padding: 30px;
 }
 .review-3{
   display: flex;

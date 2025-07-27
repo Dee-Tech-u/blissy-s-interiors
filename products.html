@@ -6,7 +6,10 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <link rel="stylesheet" href="products.css">
+
   <title>Products & Services Page</title>
 </head>
 <body>
@@ -17,7 +20,8 @@
 <!-- the HTML sidebar -->
   <div class="sidebar">
     <div class="wrapper">
-      <h1 class="content">
+      <h1 class="content" data-aos="zoom-in"
+            data-aos-duration="3000">
         Our Products <hr>
         <ul>
         <li><span>CURTAINS</span></li>
@@ -44,19 +48,22 @@
   <main>
     <section>
     <div class="container container--section1">
-      <h2 class="text-centered">Quality Products</h2>
+      <h2 class="text-centered"data-aos="zoom-in" data-aos-duration="3000">Quality Products</h2>
       <div class="split">
-        <div>
+        <div data-aos="flip-down"
+            data-aos-duration="3000"><!--aos animation display-->
           <img src="blissy-images/grok_image_e1x0rt-1.jpg" alt="duvet">
           <p>window blind</p>
         </div>
-        <div>
+        <div data-aos="zoom-in"
+            data-aos-duration="3000">
+          <img src="blissy-images/IMG-20250718-WA0075.jpg" alt="bed cover">
+          <p>bed cover</p>
+        </div>
+        <div data-aos="fade-right"
+  data-aos-duration="2500">
           <img src="blissy-images/IMG-20250718-WA0096.jpg" alt="window blind">
           <p>window blind</p>
-        </div>
-        <div>
-          <img src="blissy-images/IMG-20250718-WA0075.jpg" alt="duvet">
-          <p>duvet</p>
         </div>
       </div>
     </div>
@@ -66,7 +73,8 @@
     <div class="container container--section2">
       <h2 class="text-centered">Our cleaning Services</h2>
       <div class="split">
-        <div>
+        <div data-aos="flip-down"
+            data-aos-duration="3000">
           <h3>Residential Cleaning</h3>
             <p>Keep your home sparkling clean with our thorough residential servives.</p>
             <h3>Commercial Cleaning</h3>
@@ -74,8 +82,9 @@
             <h3>Deep cleaning</h3>
             <p>Comprehensive deep cleaning for those hard-to-reach areas</p>
         </div>
-        <div>
-          <img src="blissy-images/Cleaning lady1.jpg" alt="window blind">
+        <div data-aos="zoom-in"
+            data-aos-duration="3000">
+          <img src="blissy-images/Cleaning lady1.jpg" alt="cleaning lady">
           <p>keep your home clean</p>
         </div>
       </div>
@@ -86,15 +95,18 @@
     <div class="container container--section3">
       <h2 class="text-centered">Affordable rate</h2>
       <div class="split">
-        <div>
+        <div data-aos="zoom-in-right"
+            data-aos-duration="3000">
           <img src="blissy-images/IMG-20250718-WA0077.jpg" alt="duvet">
           <p>bed cover</p>
         </div>
-        <div>
+        <div data-aos="zoom-out"
+            data-aos-duration="3000">
           <img src="blissy-images/IMG-20250718-WA0092.jpg" alt="window blind">
           <p>window blind</p>
         </div>
-        <div>
+        <div data-aos="zoom-in-left"
+            data-aos-duration="3000">
           <img src="blissy-images/IMG-20250718-WA0048.jpg" alt="duvet">
           <p>duvet</p>
         </div>
@@ -112,5 +124,9 @@
   </button> 
   </div>
   </main>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>   AOS.init(); </script>
 </body>
 </html>

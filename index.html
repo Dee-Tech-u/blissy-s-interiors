@@ -6,6 +6,8 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 
   <title>Blissy's Interiors</title>
@@ -30,6 +32,7 @@
           <li class="hide-on-mobile"><a href="index.html">Home</a></li>
           <li class="hide-on-mobile"><a href="about.html">About</a></li>
           <li class="hide-on-mobile"><a href="products.html">Services</a></li>
+          <li class="hide-on-mobile"><a href="review.html">Reviews</a></li>
           <li class="hide-on-mobile"><a href="contact-us.html">Contact-Us</a></li>
           <li class="menu-button" onclick=showSidebar()><i class="fa fa-bars" style="font-size: xx-large; cursor: pointer;"></i></li>
         </ul>
@@ -47,9 +50,11 @@
           <p >BLISSY'S INTERIORS WE DEALS ON CURTAINS, WINDOWS BLINDS, BEDCOVERS, BEDSHEETS. & DUVET ETC. We'RE TESTED AND TRUSTED WE GIVE YOUR HOME THAT OUTSTANDING LOOKS IT DESERVES OUR CUSTOMERS SATISFACTIONS IS OUR OUTMOST PRIORITY</p>
         </div>
         <div class="hero">
-        <div><img src="blissy-images/Cleaning lady1.jpg" alt="a lady holding chemicals for cleaning" style="height: 400px;">
+        <div data-aos="fade-up"
+            data-aos-duration="3000"><img src="blissy-images/Cleaning lady1.jpg" alt="a lady holding chemicals for cleaning" style="height: 400px;">
         </div>
-        <div>
+        <div data-aos="fade-down"
+            data-aos-duration="3000">
           <img src="blissy-images/IMG-20250718-WA0019.jpg" alt="window blind" style="height: 400px;">
         </div>
       </div>
@@ -61,13 +66,16 @@
     <search>
       <div class="container">
       <div class="split">
-    <div>
+    <div data-aos="zoom-in-right"
+            data-aos-duration="3000">
       <img src="blissy-images/Lady-sewing-machine.jpg" alt="lady on sewing machine">
     </div>
-    <div>
+    <div data-aos="zoom-out"
+            data-aos-duration="3000">
      <p>Your Home Interiors are in a great hands when you choose Blissy's Interiors. Timing and customer's satisfactions is our top priority, choose us today and choose comfort and luxury in one package</p>
     </div>
-    <div>
+    <div data-aos="zoom-in"
+            data-aos-duration="3000">
       <img src="blissy-images/Lady-sewing-duvet.jpg" alt="lady sewing duvet">
     </div>
     </div>
@@ -82,5 +90,9 @@
     </section>
 
   <script src="script.js"> </script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>   AOS.init(); </script>
 </body>
 </html>
